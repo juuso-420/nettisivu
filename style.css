@@ -30,3 +30,21 @@ footer {
   background: #ddd;
   font-size: 0.9rem;
 }
+
+.hero-imageddd {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center 60%; /* 👈 THIS shifts visible part down */
+  display: block;
+  margin: 0 auto;
+}
+
